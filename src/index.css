@@ -1,0 +1,37 @@
+@import "./fonts.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar .nav-item{
+  font-family: Poppins-Bold sans-serif;
+}
+.navbar .nav-item a{
+  color: #fff !important;
+}
+.navbar .nav-item a:hover{
+  color: #EE4836 !important;
+}
+.navbar .active{
+  background-color: #EE4836 !important;
+  color: #fff;
+}
+.navbar .active a:hover{
+  color: #000 !important;
+}
+.navbar-toggler{
+  background-color: white !important;
+}
+
+.poppins-bold{
+  font-family: Poppins-Bold sans-serif;
+  color: #EE4836;
+}
+.poppins-medium{
+  font-family: Poppins-Medium sans-serif;
+}
